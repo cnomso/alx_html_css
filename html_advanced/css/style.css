@@ -1,0 +1,42 @@
+body
+{
+    border: 10px solid black;
+    height: 300vh;
+    padding: 10px;
+}
+
+header
+{
+    border: 5px solid black; 
+    height: 10vh;
+}
+
+header div
+{
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header div div
+{
+    border: 3px solid black;
+    padding: 8px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header div div a
+{
+    border: 3px solid rgb(192, 26, 26);
+    padding: 8px;
+    
+
+}
+
+header div span
+{
+  align-content: center;
+}
