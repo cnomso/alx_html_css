@@ -1,0 +1,65 @@
+body
+{
+    flex-direction: column;
+    padding-right: 500px;
+    padding-left: 500px;
+    
+}
+
+header{
+    border: 5px solid black; 
+    height: 6vh;
+    padding: 10px;
+}
+
+header div
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo
+{
+    display: flex;
+}
+
+#nav 
+{
+    justify-content: space-between;
+   
+}
+
+footer
+{
+ background-color: antiquewhite;
+ height: 4vh;
+ padding: 10px;
+ justify-content: center;
+ padding-left: 350px;
+ padding-right: 10px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding-top: 30px;
+}
+
+article
+{
+    flex: 2;
+    overflow-y: auto 
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto 
+}
+
+.works_on_smartphone
+{
+    
+}
