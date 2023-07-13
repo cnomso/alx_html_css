@@ -222,6 +222,8 @@
     padding: 0;
     list-style: none;
     text-align: center;
+    margin: var(--nav-item-margin);
+    /* .nav-item + .nav-item: ;  */
   }
   
   .nav .nav-item {
@@ -230,7 +232,7 @@
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     /* display: var(--nav-item-display); */
-    margin: var(--nav-item-margin);
+    /* margin: var(--nav-item-margin); */
   }
   
   .nav .nav-link {
