@@ -1,0 +1,297 @@
+.bg-image{
+    /* background-image: url('images/BG/bg image.png'); */
+    /* height: fit-content;
+    background-repeat: no-repeat;
+    display: flexbox;
+    background-size: contain ; */
+    /* background-color: black; */
+}
+
+/*------------------- General ----------------*/
+
+/* body{
+    display:flex;
+    justify-content: center;
+    height: 00vh;
+    width: ;
+    padding: 0px;
+} */
+
+main section {
+    display: flex;
+  justify-content: center;
+}
+
+
+/*-------------------Button ----------------*/
+
+
+/*-------------------Typography ----------------*/
+
+h1{
+    font-size: 120px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    /* font-weight: 700px; */
+    word-wrap:break-word; 
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    /* font-weight: 700px; */
+    word-wrap:break-word; 
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: 30px;
+    word-wrap:break-word; 
+}
+
+
+
+
+
+
+/*-------------------Nav Menu ----------------*/
+
+
+header div {
+   
+    align-content: space-around;
+    text-decoration-color: aliceblue;
+ }
+
+ #nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+    flex-flow: row wrap;
+    padding-inline: 0px;
+    text-decoration-color: aliceblue;
+}
+
+#nav-link {
+    padding: 1em;
+}
+
+.logo {
+    /* display: flex;
+    justify-content: ; */
+    /* padding: ; */
+}
+
+/*-------------------Top Banner ----------------*/
+
+#topb {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#Gschool {
+    margin-top: 150px;
+    
+}
+
+
+#threewords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+#threewords p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px 0px 70px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.regbutton {
+    background-color: #C271FF;
+    border-radius: 12pt;
+    margin-bottom: 250px;
+    
+  }
+
+/*-------------------Lower banner / team ----------------*/
+
+#pros {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.thepro {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 50px;
+}
+
+/*-------------------quote section ----------------*/
+
+#quote-block {
+    display: flex;
+    justify-content: center;
+    background-color: #C271FF;
+    padding: 170px 0px 170px 0px;
+}
+
+#quote-block div {
+    padding: 0px 50px 0px 50px;
+}
+
+#quote-block p{
+    text-align: left;
+}
+
+
+/*-------------------Video section ----------------*/
+#vidtuts {
+    display:flex; 
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+}
+
+.viz1-f {
+    /* display: ; */
+    padding: 0px 50px 0px 50px;
+
+}
+
+.authorvid {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*-------------------membership section ----------------*/
+
+.membership {
+     background-color:#071629 ;
+     color: white;
+     height: 50vh;
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+#memeship {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.memfree {
+    
+    /* display: flex; */
+    padding: 0px 30px 0px 30px;
+   
+}
+
+.memfree img {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.memfree p {
+    color: white;
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word; 
+    text-align: center
+}
+
+#mem-section {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#Mem-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 12pt;
+
+    
+}
+
+
+
+/*------------------- FAQ Section ----------------*/
+#faqs {
+    margin-bottom: 50px;
+}
+
+#faqtitle {
+    display:flex; 
+    justify-content: center;
+    
+}
+
+#faqcontent {
+    display:flex; 
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.contfaq {
+    padding: 0px 150px 0px 0px;
+}
+
+/*------------------- Footer ----------------*/
+ #footer {
+    background-color:#071629 ;
+     color: white;
+    
+    
+ }
+
+ #footer div div{
+    /* display: flex; */
+    flex-flow: wrap;
+   
+}
+
+#foot_nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px 0px 30px;
+}
+
+#foot_nav img {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px 0px 10px;
+}
+
+footer p {
+   
+    margin-bottom: 10px;
+}
+
+#foot_txt {
+   padding-bottom: 10px;
+}
